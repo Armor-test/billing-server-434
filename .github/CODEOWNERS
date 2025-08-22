@@ -1,0 +1,33 @@
+# CODEOWNERS file for billing-server-434
+# Global owners - will be requested for all PRs
+* @Armor-test/team-frontend @Armor-test/squad-ml @Armor-test/dept-data
+
+# Directory ownership
+/vendor/ @Armor-test/unit-devops @Armor-test/dept-data @Armor-test/squad-ux
+/web/ @Armor-test/squad-ml @Armor-test/grp-reporting
+/app/ @Armor-test/team-research @Armor-test/grp-storage @Armor-test/grp-integration
+/migrations/ @Armor-test/team-core @Armor-test/squad-ux
+/ui/ @Armor-test/squad-frontend @Armor-test/squad-cloud
+/pages/ @Armor-test/squad-apps @Armor-test/squad-api
+/build/ @Armor-test/dept-billing @Armor-test/squad-api
+/plugins/ @Armor-test/unit-test @Armor-test/team-governance
+/modules/ @Armor-test/squad-cloud @Armor-test/team-reporting @Armor-test/team-security
+/extensions/ @Armor-test/unit-devops @Armor-test/squad-search
+
+# File type ownership
+*.swift @Armor-test/grp-integration @Armor-test/squad-mobile
+*.jsx @Armor-test/squad-frontend @Armor-test/squad-cache
+*.xml @Armor-test/dept-release @Armor-test/squad-search @Armor-test/team-core
+*.scala @Armor-test/squad-payments @Armor-test/squad-mobile
+*.css @Armor-test/squad-apps @Armor-test/dept-test @Armor-test/squad-search
+*.json @Armor-test/squad-performance @Armor-test/team-logging @Armor-test/dept-test
+*.rb @Armor-test/team-research @Armor-test/team-reporting @Armor-test/squad-tooling
+*.yml @Armor-test/squad-research @Armor-test/squad-performance
+*.md @Armor-test/grp-integration @Armor-test/dept-security
+*.py @Armor-test/team-governance @Armor-test/team-reporting
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
